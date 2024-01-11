@@ -1,2 +1,4 @@
 -- Display all record of first_table
-SELECT id, name FROM first_table ORDER BY id
+INSERT TO first_table
+VALUES(id = 89,
+name = Holberton School)
