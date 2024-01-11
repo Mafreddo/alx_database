@@ -1,1 +1,2 @@
---A script that inserts a new row in the table
+-- Display all record of first_table
+SELECT id, name FROM first_table ORDER BY id
