@@ -1,0 +1,1 @@
+--A script that inserts a new row in the table

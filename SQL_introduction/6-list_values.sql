@@ -1,0 +1,1 @@
+--A script that lists all row of the table

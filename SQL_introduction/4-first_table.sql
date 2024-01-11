@@ -1,0 +1,1 @@
+--a script that creates a table called of a first table
