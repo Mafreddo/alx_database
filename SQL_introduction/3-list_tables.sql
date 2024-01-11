@@ -1,3 +1,3 @@
 --A script that lists all the tables of a database in your MySQL server
-SELECT* lists
-FROM MySQL.colums_priv
+SHOW TABLES 
+FROM MySQL;
