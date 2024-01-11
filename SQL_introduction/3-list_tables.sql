@@ -5,16 +5,13 @@ USE hbtn_test_db_0;
 
 CREATE TABLE IF NOT EXISTS holbteron_0 (
     name VARCHAR(256)
-    id INT
 );
 
 CREATE TABLE IF NOT EXISTS holbteron_1 (
     name VARCHAR(256)
-    id INT
 );
 
 CREATE TABLE IF NOT EXISTS holbteron_2 (
     id INT,
     name VARCHAR(256)
-    age INT
 );
