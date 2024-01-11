@@ -1,2 +1,3 @@
---we are learning here
-SELECT* FROM MySQL
+-- Display all databases
+
+SHOW databases;
