@@ -1,10 +1,8 @@
---a script that creates a table called of a first table
-
-CREATE DATABASE IF NOT EXISTS MySQL;
-
-USE MySQL
-CREATE TABLE first_table (
-    name varchar(256)
-    id INT
-    age 27
-)
+-- Create database and table
+DROP DATABASE IF EXISTS hbtn_test_db_4;
+CREATE DATABASE IF NOT EXISTS hbtn_test_db_4;
+USE hbtn_test_db_4;
+CREATE TABLE IF NOT EXISTS first_table (
+    id INT,
+    name VARCHAR(256)
+);
