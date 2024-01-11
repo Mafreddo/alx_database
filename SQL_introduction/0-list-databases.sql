@@ -1,4 +1,2 @@
 --we are learning here
-SELECT * FROM MySQL
-
---Alx is good
+SELECT* FROM MySQL
