@@ -2,4 +2,5 @@
 CREATE USER user_0d_1
 CREATE USER user_0d_2
 GRANT SELECT *.*
-ON localhost;
+ON localhost.*;
+TO user_0d_1,user_0d_2
