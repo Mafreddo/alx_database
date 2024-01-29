@@ -1,4 +1,4 @@
--- Creating a user on Databased
+-- user_0d_1 root user and user_0d_2
 
 CREATE USER 'user_0d_1'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL ON *.* TO 'user_0d_1'@'localhost' WITH GRANT OPTION;
