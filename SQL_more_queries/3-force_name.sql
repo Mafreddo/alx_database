@@ -1,5 +1,5 @@
 --Creating a table force name
-USE hbtn_0d_2
+USE hbtn_0d_2;
 
 CREATE TABLE IF NOT EXISTS foece name
 (

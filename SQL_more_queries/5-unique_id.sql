@@ -1,6 +1,6 @@
 --Creating a unique table
 
-USE hbtn_0d_2
+USE hbtn_0d_2;
 
 CREATE TABLE unique_id
 (
