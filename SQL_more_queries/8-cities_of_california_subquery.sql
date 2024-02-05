@@ -1,4 +1,4 @@
---Creating Database of all the cities in Califonia
+-- Creating Database of all the cities in Califonia
 
 CREATE TABLE states(
     id INT,
