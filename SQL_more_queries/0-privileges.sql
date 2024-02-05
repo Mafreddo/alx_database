@@ -1,9 +1,6 @@
 -- user_0d_1 root user and user_0d_2
 
-CREATE USER 'user_0d_1'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL ON *.* TO 'user_0d_1'@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILAGES;
+CREATE IF NOT EXISTS 'user_0d_1' @ 'localhost';
+CREATE IF NOT EXISTS 'user_0d_2' @ 'localhost';
 
-CREATE USER 'user_0d_2'@'localhost' iDENTIFIED BY 'password';
-GRANT ALL ON *.* TO 'user_0d_2'@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILAGES;
+SHOW ALL PRIVILAGES @'user_0d_1' AND 'user_0d_2'
