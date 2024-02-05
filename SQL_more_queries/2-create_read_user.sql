@@ -1,5 +1,6 @@
 -- Creating database and user
 
-CREATE USER IF NOT EXISTS 'user_0d_2'@'localhost' IDENTIFIED BY 'user_0d_2_pwd';
+CREATE DATABASE IF NOT EXISTS 'hbtn_0d_2'@'localhost'
+CREATE USER IF NOT EXISTS 'user_0d_2'@'hbtn_0d_2' IDENTIFIED BY 'user_0d_2_pwd';
 
-GRANT SELECT ON *.* TO 'user_0d_2'@'localhost';
+GRANT SELECT ON *.* TO 'user_0d_2'@'hbtn_0d_2';
