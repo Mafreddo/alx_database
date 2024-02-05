@@ -1,9 +1,5 @@
 --Creating a user 
 
-CREATE USER 'user_0d_1'@'localhost';
+CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
 
-SET PASSWORD FOR 'user_0d_1'@'localhost'='user_0d_1_pwd';
-
-GRANT ALL PRIVILAGES ON *.* TO 'user_0d_1'@'localhost';
-
-FLUSH PRIVILAGES;
+GRANT ALL ON *.* TO 'user_0d_1'@'localhost';
