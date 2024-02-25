@@ -1,10 +1,4 @@
---Creating a unique table
+-- prints properties of a table
 
-USE hbtn_0d_2;
-
-CREATE TABLE unique_id
-(
-
-    id INT with the default value 1
-    name VARCHAR(256)
-) 
+-- describes elements of the table
+SHOW CREATE TABLE first_table;

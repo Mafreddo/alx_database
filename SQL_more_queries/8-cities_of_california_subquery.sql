@@ -1,3 +1,3 @@
--- Creating Database of all the cities in Califonia
+-- counts all records of id= in the table
 
-SELECT * FROM states;
+SELECT COUNT(*) FROM first_table WHERE id='89';

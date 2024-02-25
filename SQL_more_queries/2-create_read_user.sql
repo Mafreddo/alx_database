@@ -1,4 +1,4 @@
--- Creating database and user
-CREATE DATABASE IF NOT EXISTS hbtn_0d_2;
-CREATE USER IF NOT EXISTS 'user_0d_2'@'localhost' IDENTIFIED BY 'user_0d_2_pwd';
-GRANT SELECT ON hbtn_0d_2.* TO 'user_0d_2'@'localhost';
+-- this script deletes a database from the MYSQL server --
+
+-- deletes a database from the MYSQL if it exixts --
+DROP DATABASE IF EXISTS hbtn_0c_0;

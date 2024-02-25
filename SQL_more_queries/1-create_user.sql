@@ -1,4 +1,4 @@
--- Creating a user 
+-- This script creates databases in the MYSQL server --
 
-CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
-GRANT ALL ON *.* TO 'user_0d_1'@'localhost';
+-- creates the database hbtn_0c_0 if it does not exist --
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
